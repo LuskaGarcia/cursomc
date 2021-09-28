@@ -64,7 +64,7 @@ public class Categoria implements Serializable{
 	}
 
 	@Override
-	public boolean equals(Object obj) {
+	public boolean equals(Object obj) { //vai comparar o hashcode dos objetos na lista de forma dinamica
 		if (this == obj)
 			return true;
 		if (obj == null)
